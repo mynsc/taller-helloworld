@@ -17,7 +17,7 @@ void imprimir_z(int n){
 }
 int main() {
     int n;
-    cout << "Ingrese un número impar y mayor igual que 3: ";
+    cout << "Ingrese un número impar que sea mayor o igual a 3: ";
     cin >> n;
 
     if (n % 2 == 1 && n>=3) {
